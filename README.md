@@ -1,11 +1,9 @@
-#This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
+#This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS.
 
 ### Usage
 
 
 $ npm install
-$ npm start
-# Or run with Nodemon
 $ npm run dev
 
 # Visit http://localhost:5000

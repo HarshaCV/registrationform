@@ -1,0 +1,43 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">BlockChain</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarColor01"
+      aria-controls="navbarColor01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="btn btn-primary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-primary flex-sm-fill text-sm-center"
+            ><%= user.name %></a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a href="/users/logout" class="btn btn-primary">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div>
+  <div class="container card border-primary mb-3" style="max-width: 1220px;">
+    <div class="card-header"><h1>User Details</h1></div>
+    <div class="card-body">
+      <p class="lead mb-3">Name:<%= user.name %></p>
+      <p class="lead mb-3">Email:<%= user.email %></p>
+      <p class="lead mb-3">password:<%= user.password %></p>
+    </div>
+  </div>
+</div>
